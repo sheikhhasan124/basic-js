@@ -35,4 +35,24 @@ const countVowel=(sentence)=>{
        })
        return count
 }
-console.log(countVowel('i love bangladesh'))
+// console.log(countVowel('i love bangladesh'))
+//--------------
+// kono array theke duplicate num gula kivabe ber kore ante pari
+// const numbers=[1,2,4,4,2,6,7,6]
+// const duplicate = numbers.filter((value,index,array)=>{
+//     return array.indexOf(value) !== index
+// })
+// console.log(duplicate)
+//------------------
+// kono array theke unique num gula kivabe ber kore ante pari
+// const number=[1,2,4,4,2,6,7,6]
+// const unique = number.filter((value,index,array)=>{
+//     return array.indexOf(value) === index
+// })
+// console.log(unique)
+//------------------
+const number=[1,2,4,4,2,6,7,6]
+const unique = number.filter((value,index,array)=>{
+    return value
+})
+console.log(unique)
